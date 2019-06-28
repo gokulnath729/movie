@@ -1,0 +1,53 @@
+.image {
+  border: 4px solid #fff;
+}
+a {
+  text-decoration: none !important;
+  color: white;
+}
+img:hover {
+  opacity: 0.1;
+}
+.image:hover {
+  border: 3px solid greenyellow;
+
+  cursor: pointer;
+}
+
+.image {
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 0%;
+  transition: 1s ease;
+}
+
+.boom:hover .overlay {
+  height: 100%;
+  width: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 100% !important;
+}
+
+.fa-star {
+  bottom: 6%;
+}
+.pic-con {
+  margin-left: auto;
+}
