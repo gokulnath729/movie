@@ -4,7 +4,7 @@ import "./App.css";
 
 import Content from "./Component/Content/Content";
 import Pic from "./Component/Images/Image";
-import { Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 var sz = "https://img.yts.lt/assets/images/movies/shazam_2019/medium-cover.jpg";
 var ps =
   "https://yts.lt/assets/images/movies/pet_sematary_2019/medium-cover.jpg";
@@ -54,7 +54,7 @@ class App extends React.Component {
           name: "Hollow Point",
           Year: 2019,
           src: hp,
-          value: "7.5 / 10"
+          value: "7 / 10"
         },
         {
           id: 6,
@@ -68,7 +68,7 @@ class App extends React.Component {
           name: "CTRL",
           Year: 2019,
           src: cl,
-          value: "8.2 / 10"
+          value: "8 / 10"
         },
 
         {
@@ -76,7 +76,7 @@ class App extends React.Component {
           name: " ",
           Year: 2019,
           src: dm,
-          value: "7.5 / 10"
+          value: "7/ 10"
         }
       ]
     };

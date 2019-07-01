@@ -5,13 +5,11 @@ a {
   text-decoration: none !important;
   color: white;
 }
-img:hover {
-  opacity: 0.1;
-}
+
 .image:hover {
   border: 3px solid greenyellow;
-
   cursor: pointer;
+  opacity: 0.1;
 }
 
 .image {
@@ -36,7 +34,7 @@ img:hover {
 
 .text {
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   position: absolute;
   top: 40%;
   left: 50%;
@@ -46,8 +44,5 @@ img:hover {
 }
 
 .fa-star {
-  bottom: 6%;
-}
-.pic-con {
-  margin-left: auto;
+  bottom: 5%;
 }
